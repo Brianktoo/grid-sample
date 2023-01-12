@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 98vw;
+    height: 98vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container{
+    height: 98vh;
+    grid: display;
+    grid-template-areas:  
+    'one one two'
+    'three four two'
+    'five six seven'
+    ;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: 4;
+}
+.five{
+     grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
