@@ -2,17 +2,22 @@
     margin:0;
     padding:0;
 }
+.two{
+    background-color: black;
+    color: aliceblue;
+}
 .container{
-    width: 98vw;
-    height: 98vh;
+    display: flex;
+    width: 100px;
+    height: 100px;
     display: grid;
     justify-items: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .container{
-    height: 98vh;
+
     grid: display;
     grid-template-areas:  
     'one one two'
